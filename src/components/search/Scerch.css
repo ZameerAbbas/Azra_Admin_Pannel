@@ -1,0 +1,104 @@
+.search{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search .seanot{
+    width: 88%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8px;
+}
+.search .seanot .searchInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F4F5FA;
+    border-radius: 50px;
+    padding: 9.5px 2px 9.5px 6.9px;
+}
+.search .seanot .searchInput .searchIcon{
+    color: #4A4C56;
+    font-size: 18px;
+}
+.search .seanot .searchInput input{
+    width: auto;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+.search .seanot .notMsg{
+    display: flex;
+}
+.search .seanot .notMsg .notifications{
+    color: #858D9D;
+    position: relative;
+    font-size: 24px;
+    margin-right: 24px;
+}
+.search .seanot .notMsg .notifications h6{
+    position: absolute;
+    background-color: #B67571;
+    top: -0.2rem;
+    right: -8px;
+    width: 19px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: #fff;
+
+}
+.search .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #F0F1F3;
+    padding-left: 20px;
+}
+.search .profile .img{
+    position: relative;
+}
+.search .profile .img img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.search .profile .img .dot{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #22D35E;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.search .profile .manager{
+    margin: 0px 12px;
+}
+.search .profile .manager h3,
+.search .profile .manager h4{
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 500;
+    color: #4A4C56;
+}
+.search .profile .manager h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+.search .profile .dropdown{
+    font-size: 1.5rem;
+    color:#858D9D;
+}
+
+
+

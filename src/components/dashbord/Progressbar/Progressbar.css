@@ -1,0 +1,73 @@
+.progress-container {
+    width: 360px;
+    height: 360px;
+    border-radius: 12px;
+    background:white;
+    padding: 17px 17px 
+}
+
+.title {
+   padding: 8px 0px;
+}
+
+.title h2 {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.045px;
+    text-transform: capitalize;
+}
+
+.persentage-outer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.persentage {
+    display: flex;
+    width: 100%;
+    height: 10.63px;
+    justify-content: space-between;
+}
+
+.persentage h4 {
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: 0.07px;
+}
+
+.persentage h3 {
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: 0.07px;
+}
+
+.progress-bar {
+    width: 323.68px;
+    height: 10.63px;
+    flex-shrink: 0;
+    background-color: rgba(206, 50, 36, 0.2) !important;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar-inner {
+    height: 30px;
+    background-color: #b67574;
+    border-radius: 15px;
+    line-height: 30px;
+    transition: width 0.3s ease-in-out;
+}

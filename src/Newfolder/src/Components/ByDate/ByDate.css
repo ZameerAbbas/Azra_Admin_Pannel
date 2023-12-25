@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@400;500;600&family=Poppins&family=Space+Grotesk:wght@500&family=Urbanist:wght@500;800&display=swap');
+.ByDate-main .Bydate{
+    background-color: #FFFFFF;
+    box-shadow:3px 0px 20px 10px rgba(61, 70, 112, 0.08);
+    height: auto;
+    width: 402px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 21px;
+    padding-bottom: 20px;
+}
+.ByDate-h1{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inter;
+    margin-top: 21px;
+}
+.Bydate label{
+    font-size: 14px;
+    margin-left: 20px;
+    color: rgba(131, 137, 140, 1);
+    float: left;
+    font-weight: 400;
+    font-family: inter;
+    margin-top: 15px;
+}
+input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    accent-color:rgba(182, 117, 113, 1);
+    float: left;
+}
+.Bydate input{
+    margin-top: 15px;
+}
+.Bydate hr{
+    color: rgb(197, 196, 196);
+}
+.From-To button{
+    color: #B67571;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 50%;
+    background-color:rgba(85, 112, 241, 0) ;
+    font-weight: 500;
+}
+.mother label{
+    font-weight: 400;
+    color: #1C1D22;
+    font-size: 14px;
+    font-family: inter;
+}
+.From-To{
+    display: flex;
+    background-color: #F1CDCA33;
+    border-radius: 8px;
+}
+.mother{
+    display: flex;
+    flex-direction: column;
+}
+.From-To button:focus{
+    background-color: rgba(182, 117, 113, 1);
+    color: white;
+}
+input[type=date]{
+    width: 100%;
+    border: 1px solid rgb(187, 178, 178);
+    outline: none;
+    border-radius: 8px;
+    color: rgba(182, 117, 113, 1);
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+

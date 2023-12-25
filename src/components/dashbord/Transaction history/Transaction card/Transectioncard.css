@@ -1,0 +1,70 @@
+.Transectioncard{
+width: 319px;
+height: 56px;
+align-items: center;
+}
+
+.picture{
+    text-align:center;
+
+}
+
+.picture img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    
+}
+
+.titleanddate{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+
+.titleanddate h2{
+color: #0F172A;
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+margin: 0;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 19.2px */
+}
+
+.titleanddate span{
+    color: #B67571;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    margin: 0;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.titleanddate h3{
+    color: #64748B;
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+margin: 0;
+font-weight: 500;
+line-height: 160%; /* 19.2px */
+
+}
+
+.title-2 {
+    text-align: center;
+}
+
+.title-2 h2{
+    color:  #0F172A;
+    text-align: right;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    margin: 0;
+    font-weight: 700;
+    line-height: 150%; /* 21px */
+    letter-spacing: 0.07px;
+}

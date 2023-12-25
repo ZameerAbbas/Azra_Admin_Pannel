@@ -1,0 +1,56 @@
+
+.nav-pills li{
+    height: 56px;
+    border-radius: 12px;
+}
+.nav-pills svg{
+    color: rgba(83, 84, 92, 1);
+}
+.nav-pills li:hover span,
+.nav-pills li:focus span{
+    color: #fff;
+}
+.nav-pills li:hover svg,
+.nav-pills li:focus svg{
+    color: #fff;
+}
+
+.nav-pills li a:hover{
+    color: #fff !important;
+    background-color: rgba(182, 117, 113, 1);
+}
+.nav-pills{
+    padding-top: 36px;
+}
+.nav-pills img{
+    height: 20px;
+    width: 17.79px;
+}
+.nav-pills span{
+    font-size: 14px;
+}
+
+.SideBar-main li span{
+    color:rgba(83, 84, 92, 1);
+}
+
+.SideBar-main .Logo{
+    height: 63px;
+    width: 126px;
+}
+.logout{
+    margin-left: 20px;
+    margin-top: 220px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.logout img{
+    height: 20px;
+    width: 20px;
+}
+.logout p{
+    margin-top: 14px;
+    color: rgba(204, 95, 95, 1);
+}

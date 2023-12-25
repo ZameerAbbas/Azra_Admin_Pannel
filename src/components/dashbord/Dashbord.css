@@ -1,0 +1,174 @@
+.Dashboard {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #f1f3f9;
+  margin-top: 9px;
+  background-color: #f1f3f9;
+  /* overflow: hidden; */
+}
+.Dashboard .nameDashboard {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  padding: 4px 20px;
+
+}
+.Dashboard .nameDashboard h3 {
+  font-weight: 400;
+  font-size: 12px;
+    color: #8b8d97;
+    margin-bottom: 0;
+    margin-left: 11px;
+}
+
+.Dashboard .nameDashboard span {
+  font-size: 16px;
+  color: #b67571;
+}
+.Dashboard .chartGrap{
+    background-color: #fff;
+    border-radius: 12px;
+    /* margin: 10px; */
+    padding: 10px;
+}
+.Dashboard .chartGrap canvas{
+    border-radius: 12px;
+    width: 100% !important;
+    height: 250px !important;
+}
+.Dashboard .chartGrap .overall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Dashboard .chartGrap .overall .revenus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 0px 20px 0px;
+    /* align-items: center; */
+}
+.Dashboard .chartGrap .overall .revenus p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #0F172A;
+    margin: 10px;
+}
+.Dashboard .chartGrap .overall .revenus h2{
+    font-size: 18px !important;
+    font-weight: 700;
+    color: #0F172A;
+    margin-left: 9px;
+}
+.Dashboard .chartGrap .overall .revenus h2 span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #B67571;
+}
+.Dashboard .chartGrap .overall .dropdown .dropdown-toggle{
+    background-color: transparent;
+    border: 1px solid #F1F5F9;
+    font-size: 12px ;
+    font-weight: 600;
+    color: #64748B;
+}
+.Dashboard .chartGrap .overall .dropdown .dropdown-menu.show{
+    width: 88.3px !important;
+}
+.Dashboard .thisWeek{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+.Dashboard .thisWeek .cardsdata{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Dashboard .thisWeek .box-1{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 11px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.Dashboard .thisWeek .box-1 .row-1{
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+    height: auto;
+}
+.Dashboard .thisWeek .box-1 .row-1 img{
+    width: 36px;
+    height: 36px;
+}
+.Dashboard .thisWeek .box-1 .row-1 p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #BEC0CA;
+}
+.Dashboard .thisWeek .box-1 .row-1 p svg{
+    font-size: 13px;
+}
+.Dashboard .thisWeek .box-1 .row-2{
+    display: flex;
+    margin-top: 33px;
+}
+.Dashboard .thisWeek .box-1 .gap{
+    gap: 40px;
+}
+.Dashboard .thisWeek .box-1 .row-2 .marjan{
+    margin: 0px 13px;
+}
+.Dashboard .thisWeek .box-1 .row-2 .totalsale p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8D97;
+}
+
+.Dashboard .thisWeek .box-1 .row-2 .totalsale h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #45464E;
+    margin: 0;
+}
+.Dashboard .thisWeek .box-1 .row-2 .totalsale h2 span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #B67571;
+    margin-top: 1.2rem;
+}
+.Dashboard .thisWeek .box-1 .row-2 .customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Dashboard .thisWeek .box-1 .row-2 .customer h3{
+    margin-top: 10px;
+}
+
+
+.Dashboard .mainChartpro,
+.Dashboard .order{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+}
+.Dashboard .mainChartpro .chartGrap,
+.Dashboard .order .orderMain{
+    width: 65%;
+}
+.Dashboard .mainChartpro .prog,
+.Dashboard .order .tran{
+    width: 25%;
+    margin-left: 2rem;
+}
+.Dashboard .chart,
+.Dashboard .order{
+    display: flex;
+    /* justify-content: space-around; */
+}

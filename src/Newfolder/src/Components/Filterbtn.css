@@ -1,0 +1,11 @@
+.ByDate-filter{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    width: 100%;
+    color: white;
+    background-color: rgba(182, 117, 113, 1);
+    border: none;
+    height: 36px;
+    border-radius: 12px;
+}

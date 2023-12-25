@@ -1,0 +1,55 @@
+
+.Modal-one .Modal-one-Header{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 24px;
+}
+.Modal-one .Modal-label-one{
+    color: #8B8D97;
+    margin-left: 24px;
+}
+.Modal-one .Modal-input-one{
+    background-color: #EFF1F999;
+    padding-left: 22px;
+    height: 52px;
+    width: 90%;
+    border-radius: 8px;
+    border: none;
+    margin-top: 28px;
+    outline: none;
+    margin-left: 24px;
+}
+.Modal-one .Modal-input-one::placeholder{
+    color: #ABAFB1;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Modals-check{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 12px;
+    margin-left: 24px;
+}
+.Modals-check label{
+    font-weight: 400;
+    font-size: 14px;
+}
+.Modals-input{
+    margin-left: 24px;
+}
+.Modals-input input{
+    height: 52px;
+    width: 95%;
+    border-radius: 8px;
+    padding-left: 22px;
+    border: none;
+    background-color: #EFF1F999;
+}
+.Modals-input input::placeholder{
+    color: #ABAFB1;
+}
+.Selection select{
+    margin-left: 24px;
+    width: 100%;
+}
